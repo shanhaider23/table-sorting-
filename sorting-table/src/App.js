@@ -14,24 +14,24 @@ function App() {
   }, []);
 
   const getData = () => {
-    axios("https://jsonplaceholder.typicode.com/comments").then((res) => {
+    axios("http://localhost:3000/employees").then((res) => {
       console.log(res.data);
       setData(res.data);
     });
   };
-  const emailFormatter = (data, row) => {
-    return <>Email={data}</>;
+  const dateFormatter = (data, row) => {
+    return <>Date={data}</>;
   };
   const columns = [
     {
-      dataField: "email",
-      text: "Email",
+      dataField: "created",
+      text: "Created Date",
       sort: true,
-      formatter: emailFormatter,
+      formatter: dateFormatter,
     },
     {
-      dataField: "postId",
-      text: "Product ID",
+      dataField: "identifier",
+      text: "Identifier",
       filter: textFilter(),
       sort: true,
       validator: (newValue, row, column) => {
@@ -47,6 +47,21 @@ function App() {
     {
       dataField: "name",
       text: "Name",
+      sort: true,
+    },
+    {
+      dataField: "display_count",
+      text: "Display Count",
+      sort: true,
+    },
+    {
+      dataField: "offer_type",
+      text: "Offer Type",
+      sort: true,
+    },
+    {
+      dataField: "status",
+      text: "Status",
       sort: true,
     },
   ];
