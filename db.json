@@ -1,0 +1,49 @@
+{
+  "employees": [
+    {
+      "name": "CK_NO_SP_001",
+      "identifier": "CK_NO_SP_001",
+      "id": 10001,
+      "created": "05/25/2022",
+      "display_count": 20,
+      "offer_type": "-",
+      "status": "offline"
+    },
+    {
+      "name": "CK_NO_SP_002",
+      "identifier": "CK_NO_SP_002",
+      "id": 10002,
+      "created": "05/25/2022",
+      "display_count": 55,
+      "offer_type": "Summer",
+      "status": "offline"
+    },
+    {
+      "name": "CK_NO_SP_003",
+      "identifier": "CK_NO_SP_003",
+      "id": 10003,
+      "created": "05/22/2022",
+      "display_count": 15,
+      "offer_type": "Summer",
+      "status": "online"
+    },
+    {
+      "name": "CK_NO_SP_004",
+      "identifier": "CK_NO_SP_004",
+      "id": 10004,
+      "created": "05/25/2022",
+      "display_count": 89,
+      "offer_type": "Summer",
+      "status": "online"
+    },
+    {
+      "name": "CK_NO_SP_005",
+      "identifier": "CK_NO_SP_005",
+      "id": 10005,
+      "created": "05/25/2022",
+      "display_count": 13,
+      "offer_type": "Summer",
+      "status": "online"
+    }
+  ]
+}
